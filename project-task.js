@@ -53,6 +53,10 @@ for (let i = 0; i < names.length; i++) {
     console.log(names[i]);
 }
 
+
+
+
+
 /*
 ===========================================
 🛠️ Steps for Refactoring
@@ -72,3 +76,37 @@ for (let i = 0; i < names.length; i++) {
 */
 
 // ✅ Your refactored code goes below this line!
+
+//Script 1
+//repetition
+function greetUsers(name) {
+   console.log("Welcome, "+ name + "!");
+
+}
+greetUsers("Alice");
+greetUsers("Bob");
+greetUsers("Charlie");
+
+//Script 2
+// calculations
+function sumOfNumbers(num1,num2) {
+   return num1 + num2
+   
+};
+console.log("The sum of 5 and 10 is " + sumOfNumbers(5,10));
+
+//Script 3
+//calculations
+function productOfNumbers (num1,num2){
+   return num1 * num2
+};
+console.log("The product of 5 and 10 is " + productOfNumbers(5,10));
+
+//Script 4
+//list printing
+function printNames(names) {
+   for (let i = 0; i < names.length; i++) {
+      console.log(names[i]);
+}
+};
+printNames(["Alice","Bob","Charlie"]);
